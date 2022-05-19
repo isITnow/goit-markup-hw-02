@@ -30,6 +30,7 @@ body {
 }
 .site-nav-list .nav-link:hover,
 .site-nav-list .nav-link:focus,
+.site-nav-list .nav-link.current,
 .adress .adress-link:hover,
 .adress .adress-link:focus,
 .adress .contact-link:hover,
@@ -72,6 +73,14 @@ body {
   color: var(--title-text-color);
 }
 
+/* наша команда */
+.team {
+  background-color: var(--light-background);
+}
+.team .team-heading,
+.team .team-name {
+  color: var(--title-text-color);
+}
 /* подвал */
 footer {
   background-color: var(--background-color);
