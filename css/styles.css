@@ -95,7 +95,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* страница портфолио */
+/* !!страница портфолио!! */
 
 /* button */
 .filter .button {
@@ -106,4 +106,12 @@ footer {
 .filter .button:focus {
   color: var(--totall-white);
   background-color: var(--accent-color);
+}
+
+/* Проекты */
+.project-link .project-title {
+  color: var(--title-text-color);
+}
+.project-link .project-desc {
+  color: var(--primery-tect-color);
 }
