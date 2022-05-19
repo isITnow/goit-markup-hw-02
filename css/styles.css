@@ -1,4 +1,100 @@
-/* темный текст color: #212121; */
+:root {
+  --accent-color: #2196f3;
+  --primery-tect-color: #757575;
+  --title-text-color: #212121;
+  --totall-white: #ffffff;
+  --tatall-black: #000000;
+  --background-color: #2f303a;
+  --light-background: #f5f4fa;
+}
 
-/* светлее текст color: #757575; */
+body {
+  background-color: var(--totall-white);
+  color: var(--primery-tect-color);
+}
 
+.list {
+  list-style: none;
+}
+/* header */
+.logo {
+  color: var(--tatall-black);
+}
+.web {
+  color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav-list .nav-link {
+  color: var(--title-text-color);
+}
+.site-nav-list .nav-link:hover,
+.site-nav-list .nav-link:focus,
+.adress .adress-link:hover,
+.adress .adress-link:focus,
+.adress .contact-link:hover,
+.adress .contact-link:focus {
+  color: var(--accent-color);
+}
+.contact .contact-link {
+  color: var(--primery-tect-color);
+}
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* шапка */
+.header {
+  background-color: var(--background-color);
+}
+.header .headline {
+  color: var(--totall-white);
+}
+
+.header .button {
+  color: var(--totall-white);
+  background-color: #188ce8;
+}
+.header .button:hover,
+.header .button:focus {
+  color: var(--totall-white);
+  background-color: var(--accent-color);
+}
+
+/* особенности */
+.specifics-list .specifics-title {
+  color: var(--title-text-color);
+}
+
+/* чем мы занимаемся */
+.subject .subject-heading {
+  color: var(--title-text-color);
+}
+
+/* подвал */
+footer {
+  background-color: var(--background-color);
+}
+.footer .logo {
+  color: var(--totall-white);
+}
+.adress .adress-link {
+  color: var(--totall-white);
+}
+.adress .contact-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* страница портфолио */
+
+/* button */
+.filter .button {
+  color: var(--title-text-color);
+  background-color: var(--light-background);
+}
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--totall-white);
+  background-color: var(--accent-color);
+}
