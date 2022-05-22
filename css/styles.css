@@ -59,6 +59,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   text-decoration: none;
 }
 
@@ -86,11 +87,13 @@ body {
 .header .button {
   color: var(--totall-white);
   background-color: #188ce8;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+
   cursor: pointer;
 }
 
@@ -187,6 +190,13 @@ footer {
 .filter .button {
   color: var(--title-text-color);
   background-color: var(--light-background);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: inherit;
+
   cursor: pointer;
 }
 
@@ -200,10 +210,16 @@ footer {
 
 .project .project-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project .project-desc {
   color: var(--primery-tect-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .project .project-link {
